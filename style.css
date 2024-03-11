@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0F7173;
+}
+
+h1 {
+    margin: 20px 0px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 70px;
+    color: #F2F230;
+}
+
+.msg {
+    font-size: 50px;
+    color: #E7ECEF;
+    font-family: "Madimi One", sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 30vw;
+    gap: 15px;
+    /* background-color: yellow; */
+}
+
+.box {
+    height: 110px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #E7ECEF;
+    color: red;
+    font-size: 35px;
+}
+
+.reset {
+    margin-top: 30px;
+    height: 10vh;
+    width: 10vw;
+    font-family: "Anta", sans-serif;
+    font-size: 30px;
+    border-radius: 18px;
+    background-color: #F05D5E;
+}
